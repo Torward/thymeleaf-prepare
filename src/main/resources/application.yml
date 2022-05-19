@@ -2,4 +2,6 @@ spring.datasource:
   url: "jdbc:postgresql://localhost:5433/gb_shop"
   username: "postgres"
   password: "admin"
-
+spring:
+  thymeleaf:
+    cache: false

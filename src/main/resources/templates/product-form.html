@@ -14,6 +14,7 @@
 <div th:replace="~{navbar :: navi(ProductForm)}"></div>
 
 <div class="container">
+
     <form class="row g-3 needs-validation" th:object="${product}" th:action="@{/product}" method="post">
         <input type="hidden" th:field="*{id}">
         <div class="col-md-8">
