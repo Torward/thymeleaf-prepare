@@ -1,5 +1,6 @@
 package ru.gb.thymeleafprepare.config;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;
@@ -9,6 +10,7 @@ import java.util.Optional;
 
 @Configuration
 @EnableJpaAuditing(auditorAwareRef = "auditorAwareBean")
+
 public class ShopConfig {
 
     @Bean

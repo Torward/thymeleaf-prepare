@@ -9,11 +9,14 @@ insert into MANUFACTURER (name) values ('Nivalis Therapeutics, Inc.');
 insert into MANUFACTURER (name) values ('TransAct Technologies Incorporated');
 insert into MANUFACTURER (name) values ('SAExploration Holdings, Inc.');
 
+insert into cart (status)VALUES ('ACTIVE'),('DISABLED');
+insert into cart_product (cart_id, product_id)VALUES (1,1),(1,2);
+
 
 
 insert into PRODUCT (title, cost, MANUFACTURE_DATE) values ('Cloves - Whole', 321.7, '5/2/2021');
-insert into PRODUCT (title, cost, MANUFACTURE_DATE, MANUFACTURER_ID) values ('Apple - Northern Spy', 3483.35, '6/17/2021', 5);
-insert into PRODUCT (title, cost, MANUFACTURE_DATE, MANUFACTURER_ID) values ('Bacardi Breezer - Strawberry', 383.81, '7/31/2021', 3);
+insert into PRODUCT (title, cost, MANUFACTURE_DATE) values ('Apple - Northern Spy', 3483.35, '6/17/2021');
+insert into PRODUCT (title, cost, MANUFACTURE_DATE) values ('Bacardi Breezer - Strawberry', 383.81, '7/31/2021');
 insert into PRODUCT (title, cost, MANUFACTURE_DATE, MANUFACTURER_ID) values ('Arizona - Plum Green Tea', 2334.05, '2/18/2021', 6);
 insert into PRODUCT (title, cost, MANUFACTURE_DATE, MANUFACTURER_ID) values ('Bar Special K', 671.45, '6/22/2021', 4);
 insert into PRODUCT (title, cost, MANUFACTURE_DATE, MANUFACTURER_ID) values ('Appetizer - Smoked Salmon / Dill', 3191.63, '5/18/2021', 1);
